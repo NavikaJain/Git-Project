@@ -1,0 +1,87 @@
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    .bf {
+      border: 10px solid #666666;
+      background-color: #ffffff;
+    }
+    .container {
+      background: #666666;
+      width: 1000px;
+      height: 500px;
+      display: flex;
+      flex-direction: row;
+    }
+    .c-1 {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+    }
+    .c-1-1 {
+      background: #fff;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      height: 50%;
+    }
+    .c-1-1-1{
+        background: #666666;
+        width: 40%;
+        height: 80%;
+        border: 1px solid #666666;
+        border-radius: 50%;
+    }
+    .c-2 {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+    }
+    .c-2-1 {
+      height: 33%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    .c-2-1-1 {
+      width: 70px;
+      height: 100%;
+      margin: 10px;
+    }
+    .c-2-2 {
+      height: 33%;
+    }
+    .c-2-3 {
+      display: flex;
+      flex-direction: row;
+      height: 33%;
+    }
+    .c-2-3 > * {
+      width: 50%;
+    }
+  </style>
+  <div class="container">
+    <div class="c-1">
+      <div class="c-1-1 bf">
+          <div class="c-1-1-1 bf"></div>
+          <div class="c-1-1-1 bf"></div>
+      </div>
+      <div class="c-1-1 bf"></div>
+    </div>
+    <div class="c-2">
+      <div class="c-2-1">
+        <div class="c-2-1-1 bf"></div>
+        <div class="c-2-1-1 bf"></div>
+        <div class="c-2-1-1 bf"></div>
+        <div class="c-2-1-1 bf"></div>
+      </div>
+      <div class="c-2-2 bf"></div>
+      <div class="c-2-3">
+        <div class="c-2-3-1 bf"></div>
+        <div class="c-2-3-1 bf"></div>
+      </div>
+    </div>
+  </div>
+  
